@@ -71,3 +71,5 @@ collections:
     posts:
         output: true
         permalink: /posts/:path/
+
+theme: jekyll-theme-merlot
