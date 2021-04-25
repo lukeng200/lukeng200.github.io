@@ -72,4 +72,4 @@ collections:
         output: true
         permalink: /posts/:path/
 
-theme: jekyll-theme-merlot
+theme: jekyll-theme-cayman
