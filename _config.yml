@@ -45,17 +45,15 @@ favicons:
 # Site navigation
 navigation_header:
 - title: Home
-  url: /
-- title: Tutorials
-  url: /tutorials.html
-- title: Course
-  url: /course.html
-- title: Team
-  url: /team.html
-- title: Get involved
-  url: /involve.html
-- title: Links
-  url: /links.html
+  url: /home.html
+- title: Research
+  url: /research.html
+- title: Software
+  url: /software.html
+- title: Teaching
+  url: /teaching.html
+- title: CV
+  url: /cv.html
 - title: Contact
   url: /contact.html
 
