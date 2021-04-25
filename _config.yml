@@ -1,30 +1,75 @@
-###########
-# site.url, site.title
-
-title: 'Lukman Adeboye Soboyejo'
-
-## note: 
-#  use site.path in your templates to make it work for both protocols e.g. http and https
-#  use site.url only inside the web feed template (e.g. requires full url incl. protocol)
-path: ""
-url:  'http://lukeng200.github.io/'
-
-
-########
-# more settings
-
-markdown: kramdown
-
-sass:
-  sass_dir: css
-  style:    expanded
-
-
-
+# Exclude files from Jekyll build
 exclude:
-- README.md
+    - README.md
+    - LICENSE
+    - CNAME
+    - Gemfile
+    - Gemfile.lock
 
+# Installed gems
+plugins: 
+    - jekyll-target-blank
+    - jekyll-redirect-from
 
-safe: true
-lsi: false
+# Gem settings
 
+# Site settings
+encoding: utf-8
+lang: en-GB
+title: "Soboyejo Lukman Adeboye"
+logo: "/assets/img/logos/logo_hex.svg"
+description: ""
+baseurl: ""
+url: "https://lukeng200.github.io"
+repo: "https://github.com/lukeng200/lukeng200.github.io"
+email: "lukeng200@gmail.com"
+google_analytics: UA-92956541-1
+css_inline: false 
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  syntax_highlighter: rouge
+  input: GFM
+  auto_ids: true 
+
+# Favicons 
+favicons: 
+    16: '/assets/img/logos/logo_hex@16px.png'
+    32: '/assets/img/logos/logo_hex@32px.png'
+    64: '/assets/img/logos/logo_hex@64px.png'
+    128: '/assets/img/logos/logo_hex@128px.png'
+    256: '/assets/img/logos/logo_hex@256px.png'
+    512: '/assets/img/logos/logo_hex@512px.png'
+    1024: '/assets/img/logos/logo_hex@1024px.png'
+
+# Site navigation
+navigation_header:
+- title: Home
+  url: /
+- title: Tutorials
+  url: /tutorials.html
+- title: Course
+  url: /course.html
+- title: Team
+  url: /team.html
+- title: Get involved
+  url: /involve.html
+- title: Links
+  url: /links.html
+- title: Contact
+  url: /contact.html
+
+# Define collections
+collections:
+    tutorials:
+        output: true
+        permalink: /tutorials/:path/
+    course:
+        output: true
+        permalink: /course/:path/
+    DL:
+        output: true
+        permalink: /DL/:path/
+    posts:
+        output: true
+        permalink: /posts/:path/
