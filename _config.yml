@@ -28,3 +28,22 @@ exclude:
 safe: true
 lsi: false
 
+<<<<<<< HEAD
+=======
+# Define collections
+collections:
+    tutorials:
+        output: true
+        permalink: /tutorials/:path/
+    course:
+        output: true
+        permalink: /course/:path/
+    DL:
+        output: true
+        permalink: /DL/:path/
+    posts:
+        output: true
+        permalink: /posts/:path/
+
+theme: jekyll-theme-cayman
+>>>>>>> 2cb578c3bf348638c85fed345e59f638a47ecf39
